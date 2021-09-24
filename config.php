@@ -8,9 +8,9 @@ $host = "localhost:8889";
 $username = "root";
 $password = "root";
 $dbname = "teste";
-$dsn = "mysql:host=$host;dbname=$dbname";
+$dsn = "mysql:dbname=$dbname;host=$host";
 $optnions = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
             );
 
-?>
+?>  
