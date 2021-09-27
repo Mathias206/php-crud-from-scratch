@@ -38,6 +38,8 @@ require "templates/header.php";
             <td><?php echo escape($row["location"]); ?></td>
             <td><?php echo escape($row["date"]); ?> </td> 
             <td><a href="update-single-user.php?id=<?php echo escape($row["id"]); ?>">Edit</a></td>
+            <td><a href="delete-single-user.php?id=<?php echo escape($row["id"]); ?>">Delete</a></td>
+
         </tr>
        <?php } ?>
 
